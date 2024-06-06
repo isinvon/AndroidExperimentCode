@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 声明XML版本和编码 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <!-- 创建一个垂直方向的LinearLayout，宽度和高度都为match_parent，即填满父容器 -->
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入你的姓名" />
+    <!-- 创建一个EditText，用于输入姓名，宽度为match_parent，高度为wrap_content，提示信息为“请输入你的姓名” -->
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击显示问候语" />
+    <!-- 创建一个Button，用于触发事件，宽度和高度都为wrap_content，按钮上的文字为“点击显示问候语” -->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+    <!-- 创建一个TextView，用于显示问候语，宽度和高度都为wrap_content，字体大小为18sp -->
+
+</LinearLayout>

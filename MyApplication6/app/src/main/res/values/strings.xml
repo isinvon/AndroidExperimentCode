@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Spinner影城订票</string>
+    <string name="btn_booking">订票</string>
+    <string-array name="cinemas">
+        <item>桂林电影院</item>
+        <item>叠彩万达电影院</item>
+        <item>高新万达电影院</item>
+        <item>红街电影院</item>
+        <item>鑫海电影院</item>
+    </string-array>
+    <string name="txv">未订票</string>
+</resources>
